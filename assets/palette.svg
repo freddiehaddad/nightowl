@@ -1,0 +1,228 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1330" viewBox="0 0 720 1330" role="img" aria-labelledby="title desc">
+  <title id="title">Night Owl Color Palette</title>
+  <desc id="desc">32 Night Owl theme colors: original 16 plus 16 extended semantic utility colors for UI and syntax contexts.</desc>
+  <style>
+    :root { --bg:#011627; --fg:#d6deeb; }
+    text { font-family: "Inter","Segoe UI","Helvetica Neue",Arial,sans-serif; }
+    .heading { font-size:28px; font-weight:600; letter-spacing:.4px; fill:var(--fg); }
+    .name { font-size:13px; font-weight:600; fill:var(--fg); }
+    .hex { font-size:12px; font-weight:500; fill:var(--fg); opacity:.9; }
+    .band { fill:#011627; opacity:.65; }
+    .swatch { stroke:#1f4259; stroke-width:1.6; rx:10; }
+  </style>
+  <rect width="720" height="1330" fill="#011627" />
+  <text x="360" y="50" class="heading" text-anchor="middle">Night Owl Palette</text>
+
+  <!-- Grid (8 rows × 4 cols). Each row height 150 (110 swatch + 40 label band). Top of grid = 80px. Bottom margin = 50px. -->
+  <g id="grid" transform="translate(50,80)">
+    <!-- ORIGINAL 16 -->
+    <!-- Row 1 -->
+    <g transform="translate(0,0)">
+      <rect class="swatch" width="140" height="110" fill="#011627" />
+      <rect class="band" x="0" y="110" width="140" height="40" />
+      <text class="name" x="70" y="130" text-anchor="middle">nightOwlBg</text>
+      <text class="hex" x="70" y="146" text-anchor="middle">#011627</text>
+    </g>
+    <g transform="translate(160,0)">
+      <rect class="swatch" width="140" height="110" fill="#0b253a" />
+      <rect class="band" x="0" y="110" width="140" height="40" />
+      <text class="name" x="70" y="130" text-anchor="middle">nightOwlPanel</text>
+      <text class="hex" x="70" y="146" text-anchor="middle">#0b253a</text>
+    </g>
+    <g transform="translate(320,0)">
+      <rect class="swatch" width="140" height="110" fill="#d6deeb" />
+      <rect class="band" x="0" y="110" width="140" height="40" />
+      <text class="name" x="70" y="130" text-anchor="middle">nightOwlFg</text>
+      <text class="hex" x="70" y="146" text-anchor="middle">#d6deeb</text>
+    </g>
+    <g transform="translate(480,0)">
+      <rect class="swatch" width="140" height="110" fill="#89a4bb" />
+      <rect class="band" x="0" y="110" width="140" height="40" />
+      <text class="name" x="70" y="130" text-anchor="middle">nightOwlLightGray</text>
+      <text class="hex" x="70" y="146" text-anchor="middle">#89a4bb</text>
+    </g>
+
+    <!-- Row 2 -->
+    <g transform="translate(0,150)">
+      <rect class="swatch" width="140" height="110" fill="#5f7e97" />
+      <rect class="band" x="0" y="110" width="140" height="40" />
+      <text class="name" x="70" y="130" text-anchor="middle">nightOwlMuted</text>
+      <text class="hex" x="70" y="146" text-anchor="middle">#5f7e97</text>
+    </g>
+    <g transform="translate(160,150)">
+      <rect class="swatch" width="140" height="110" fill="#637777" />
+      <rect class="band" x="0" y="110" width="140" height="40" />
+      <text class="name" x="70" y="130" text-anchor="middle">nightOwlGray</text>
+      <text class="hex" x="70" y="146" text-anchor="middle">#637777</text>
+    </g>
+    <g transform="translate(320,150)">
+      <rect class="swatch" width="140" height="110" fill="#82AAFF" />
+      <rect class="band" x="0" y="110" width="140" height="40" />
+      <text class="name" x="70" y="130" text-anchor="middle">nightOwlBlue</text>
+      <text class="hex" x="70" y="146" text-anchor="middle">#82AAFF</text>
+    </g>
+    <g transform="translate(480,150)">
+      <rect class="swatch" width="140" height="110" fill="#7fdbca" />
+      <rect class="band" x="0" y="110" width="140" height="40" />
+      <text class="name" x="70" y="130" text-anchor="middle">nightOwlCyan</text>
+      <text class="hex" x="70" y="146" text-anchor="middle">#7fdbca</text>
+    </g>
+
+    <!-- Row 3 -->
+    <g transform="translate(0,300)">
+      <rect class="swatch" width="140" height="110" fill="#c792ea" />
+      <rect class="band" x="0" y="110" width="140" height="40" />
+      <text class="name" x="70" y="130" text-anchor="middle">nightOwlPurple</text>
+      <text class="hex" x="70" y="146" text-anchor="middle">#c792ea</text>
+    </g>
+    <g transform="translate(160,300)">
+      <rect class="swatch" width="140" height="110" fill="#c5e478" />
+      <rect class="band" x="0" y="110" width="140" height="40" />
+      <text class="name" x="70" y="130" text-anchor="middle">nightOwlGreen</text>
+      <text class="hex" x="70" y="146" text-anchor="middle">#c5e478</text>
+    </g>
+    <g transform="translate(320,300)">
+      <rect class="swatch" width="140" height="110" fill="#ecc48d" />
+      <rect class="band" x="0" y="110" width="140" height="40" />
+      <text class="name" x="70" y="130" text-anchor="middle">nightOwlYellow</text>
+      <text class="hex" x="70" y="146" text-anchor="middle">#ecc48d</text>
+    </g>
+    <g transform="translate(480,300)">
+      <rect class="swatch" width="140" height="110" fill="#F78C6C" />
+      <rect class="band" x="0" y="110" width="140" height="40" />
+      <text class="name" x="70" y="130" text-anchor="middle">nightOwlOrange</text>
+      <text class="hex" x="70" y="146" text-anchor="middle">#F78C6C</text>
+    </g>
+
+    <!-- Row 4 -->
+    <g transform="translate(0,450)">
+      <rect class="swatch" width="140" height="110" fill="#EF5350" />
+      <rect class="band" x="0" y="110" width="140" height="40" />
+      <text class="name" x="70" y="130" text-anchor="middle">nightOwlRed</text>
+      <text class="hex" x="70" y="146" text-anchor="middle">#EF5350</text>
+    </g>
+    <g transform="translate(160,450)">
+      <rect class="swatch" width="140" height="110" fill="#ff5874" />
+      <rect class="band" x="0" y="110" width="140" height="40" />
+      <text class="name" x="70" y="130" text-anchor="middle">nightOwlPink</text>
+      <text class="hex" x="70" y="146" text-anchor="middle">#ff5874</text>
+    </g>
+    <g transform="translate(320,450)">
+      <rect class="swatch" width="140" height="110" fill="#0a2e1a" />
+      <rect class="band" x="0" y="110" width="140" height="40" />
+      <text class="name" x="70" y="130" text-anchor="middle">diffAddedBg</text>
+      <text class="hex" x="70" y="146" text-anchor="middle">#0a2e1a</text>
+    </g>
+    <g transform="translate(480,450)">
+      <rect class="swatch" width="140" height="110" fill="#2d1b1b" />
+      <rect class="band" x="0" y="110" width="140" height="40" />
+      <text class="name" x="70" y="130" text-anchor="middle">diffRemovedBg</text>
+      <text class="hex" x="70" y="146" text-anchor="middle">#2d1b1b</text>
+    </g>
+
+    <!-- EXTENDED 16 -->
+    <!-- Row 5 -->
+    <g transform="translate(0,600)">
+      <rect class="swatch" width="140" height="110" fill="#3D6FD9" />
+      <rect class="band" x="0" y="110" width="140" height="40" />
+      <text class="name" x="70" y="130" text-anchor="middle">cursorPrimary</text>
+      <text class="hex" x="70" y="146" text-anchor="middle">#3D6FD9</text>
+    </g>
+    <g transform="translate(160,600)">
+      <rect class="swatch" width="140" height="110" fill="#3AA59A" />
+      <rect class="band" x="0" y="110" width="140" height="40" />
+      <text class="name" x="70" y="130" text-anchor="middle">cursorSecondary</text>
+      <text class="hex" x="70" y="146" text-anchor="middle">#3AA59A</text>
+    </g>
+    <g transform="translate(320,600)">
+      <rect class="swatch" width="140" height="110" fill="#1E3B55" />
+      <rect class="band" x="0" y="110" width="140" height="40" />
+      <text class="name" x="70" y="130" text-anchor="middle">selectionBg</text>
+      <text class="hex" x="70" y="146" text-anchor="middle">#1E3B55</text>
+    </g>
+    <g transform="translate(480,600)">
+      <rect class="swatch" width="140" height="110" fill="#153144" />
+      <rect class="band" x="0" y="110" width="140" height="40" />
+      <text class="name" x="70" y="130" text-anchor="middle">selectionInactiveBg</text>
+      <text class="hex" x="70" y="146" text-anchor="middle">#153144</text>
+    </g>
+
+    <!-- Row 6 -->
+    <g transform="translate(0,750)">
+      <rect class="swatch" width="140" height="110" fill="#0F3148" />
+      <rect class="band" x="0" y="110" width="140" height="40" />
+      <text class="name" x="70" y="130" text-anchor="middle">lineHighlightBg</text>
+      <text class="hex" x="70" y="146" text-anchor="middle">#0F3148</text>
+    </g>
+    <g transform="translate(160,750)">
+      <rect class="swatch" width="140" height="110" fill="#082235" />
+      <rect class="band" x="0" y="110" width="140" height="40" />
+      <text class="name" x="70" y="130" text-anchor="middle">gutterBg</text>
+      <text class="hex" x="70" y="146" text-anchor="middle">#082235</text>
+    </g>
+    <g transform="translate(320,750)">
+      <rect class="swatch" width="140" height="110" fill="#6F90AD" />
+      <rect class="band" x="0" y="110" width="140" height="40" />
+      <text class="name" x="70" y="130" text-anchor="middle">gutterFg</text>
+      <text class="hex" x="70" y="146" text-anchor="middle">#6F90AD</text>
+    </g>
+    <g transform="translate(480,750)">
+      <rect class="swatch" width="140" height="110" fill="#0E3047" />
+      <rect class="band" x="0" y="110" width="140" height="40" />
+      <text class="name" x="70" y="130" text-anchor="middle">statusBarBg</text>
+      <text class="hex" x="70" y="146" text-anchor="middle">#0E3047</text>
+    </g>
+
+    <!-- Row 7 -->
+    <g transform="translate(0,900)">
+      <rect class="swatch" width="140" height="110" fill="#C9D4DD" />
+      <rect class="band" x="0" y="110" width="140" height="40" />
+      <text class="name" x="70" y="130" text-anchor="middle">statusBarFg</text>
+      <text class="hex" x="70" y="146" text-anchor="middle">#C9D4DD</text>
+    </g>
+    <g transform="translate(160,900)">
+      <rect class="swatch" width="140" height="110" fill="#B985E9" />
+      <rect class="band" x="0" y="110" width="140" height="40" />
+      <text class="name" x="70" y="130" text-anchor="middle">statusBarAccent</text>
+      <text class="hex" x="70" y="146" text-anchor="middle">#B985E9</text>
+    </g>
+    <g transform="translate(320,900)">
+      <rect class="swatch" width="140" height="110" fill="#102E45" />
+      <rect class="band" x="0" y="110" width="140" height="40" />
+      <text class="name" x="70" y="130" text-anchor="middle">menuBg</text>
+      <text class="hex" x="70" y="146" text-anchor="middle">#102E45</text>
+    </g>
+    <g transform="translate(480,900)">
+      <rect class="swatch" width="140" height="110" fill="#184564" />
+      <rect class="band" x="0" y="110" width="140" height="40" />
+      <text class="name" x="70" y="130" text-anchor="middle">menuHoverBg</text>
+      <text class="hex" x="70" y="146" text-anchor="middle">#184564</text>
+    </g>
+
+    <!-- Row 8 -->
+    <g transform="translate(0,1050)">
+      <rect class="swatch" width="140" height="110" fill="#1F4259" />
+      <rect class="band" x="0" y="110" width="140" height="40" />
+      <text class="name" x="70" y="130" text-anchor="middle">menuBorder</text>
+      <text class="hex" x="70" y="146" text-anchor="middle">#1F4259</text>
+    </g>
+    <g transform="translate(160,1050)">
+      <rect class="swatch" width="140" height="110" fill="#234D69" />
+      <rect class="band" x="0" y="110" width="140" height="40" />
+      <text class="name" x="70" y="130" text-anchor="middle">scrollbarThumb</text>
+      <text class="hex" x="70" y="146" text-anchor="middle">#234D69</text>
+    </g>
+    <g transform="translate(320,1050)">
+      <rect class="swatch" width="140" height="110" fill="#3D2E15" />
+      <rect class="band" x="0" y="110" width="140" height="40" />
+      <text class="name" x="70" y="130" text-anchor="middle">searchMatchBg</text>
+      <text class="hex" x="70" y="146" text-anchor="middle">#3D2E15</text>
+    </g>
+    <g transform="translate(480,1050)">
+      <rect class="swatch" width="140" height="110" fill="#59401C" />
+      <rect class="band" x="0" y="110" width="140" height="40" />
+      <text class="name" x="70" y="130" text-anchor="middle">searchMatchActiveBg</text>
+      <text class="hex" x="70" y="146" text-anchor="middle">#59401C</text>
+    </g>
+  </g>
+</svg>
